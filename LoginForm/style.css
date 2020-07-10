@@ -1,0 +1,54 @@
+.center{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.login {
+	border: 1px solid lightgray;
+	border-radius:15px;
+	width:30%;
+	height:80%;
+}
+
+label{
+	display: block;	
+	margin:5 auto;
+	width: 80%;
+}
+
+a{
+	display: block;	
+	margin-top:-15px;
+	margin-bottom:35px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+
+input{
+	display: block;	
+	margin:0 auto;
+	width: 80%;
+	height:10%;
+	border: 1px solid lightgray;
+	border-radius:5px;
+}
+
+input:focus {
+	outline-color: blue;
+	box-shadow: 0 0 10px blue;
+
+}
+
+label {
+	font-weight: bold;
+}
+
+.imgcenter{
+	display: block;
+	margin:30px auto;
+	width:20%;
+}
