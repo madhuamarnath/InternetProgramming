@@ -17,7 +17,7 @@ public class DBTest {
 		// rmkcet is the database name
 		String connectionUrl = "jdbc:mysql://localhost/rmkcet";
 		String userName = "root";
-		String password = "Madhu@1981";
+		String password = "password";
 		String query = "select * from student S join department D on D.deptId = S.deptId where deptName='" + deptName
 				+ "'";
 		try {
