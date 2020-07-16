@@ -40,32 +40,13 @@ public class StudentServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		RequestDispatcher requestDispatcher = request.getRequestDispatcher("display.jsp");
 		StudentDAO studentDAO = new StudentDAO();
-		int regno = Integer.parseInt(request.getParameter("regno"));
-		StudentBean studentBean = studentDAO.getRecord(regno);
-		response.setContentType("text/html");
-		// get response writer
-		PrintWriter out = response.getWriter();
-
-		// build HTML code
-		StringBuilder htmlResponse = new StringBuilder(
-				"<html> <head><title>Welcome to Student Search Portal</title></head>");
-		htmlResponse.append("<body> Details of Register Number ");
-		htmlResponse.append(regno);
-		htmlResponse.append("<br>");
-		htmlResponse.append(studentBean.getRegisterNumber());
-		htmlResponse.append("<br>");
-		htmlResponse.append(studentBean.getName());
-		htmlResponse.append("<br>");
-		htmlResponse.append(studentBean.getCgpa());
-		htmlResponse.append("<br>");
-		htmlResponse.append(studentBean.getDepartmentID());
-		htmlResponse.append("<br>");
-
-		htmlResponse.append("</body></html>");
-
-		out.println(htmlResponse.toString());
-		doGet(request, response);
+		int deptID = Integer.parseInt(request.getParameter("deptID"));
+		List<StudentBean> studentList = studentDAO.getRecord(deptID);
+		request.setAttribute("outputList", studentList);
+		requestDispatcher.forward(request, response);
+		// doGet(request, response);
 	}
 
 }
