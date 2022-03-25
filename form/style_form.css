@@ -1,0 +1,37 @@
+body {
+	background-color:#de8fff
+}
+
+h2{
+	text-align:center;
+}
+	
+label {
+	float:left; 
+	width:6em; 
+	text-align:right;
+}
+
+input {
+	margin-left: 1em; 
+	margin-bottom: .5em;
+}
+
+select {
+	margin-left: 1em; 
+	margin-bottom: 1em;
+}
+
+textarea {
+	margin-left: 1em; 
+	margin-bottom: 2em;
+}
+
+fieldset {
+	margin-bottom: 1em;
+}
+
+#register {
+	margin-left:7em; 
+	margin-top: 2em;
+}
