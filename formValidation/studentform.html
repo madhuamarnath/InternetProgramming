@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script async src="validateForm.js"></script>
+<link href="style-form-validation.css" rel="stylesheet">
+</head>
+<body>
+<h1>Students Grades</h1>
+<form novalidate id="stud-form" method="post" action="success.html">
+<label for="regno">Enter the Register Number</label>
+<input type="text" name="regno" id="regno" required pattern="1116[0-9]{8}"><br>
+<label for="studName">Enter the Student Name</label>
+<input type="text" name="studName" id="studName" required><br>
+<label for="emailID">Enter the Student Email ID</label>
+<input type="email" name="emailID" id="emailID" required><br>
+<label for="sub1">Enter the Mark for CS8601</label>
+<input type="number" name="sub1" id="sub1" required min="0" max="100"><br>
+<label for="sub2">Enter the Mark for CS8602</label>
+<input type="number" name="sub2" id="sub2" required min="0" max="100"><br>
+<label for="sub3">Enter the Mark for CS8603</label>
+<input type="number" name="sub3" id="sub3" required min="0" max="100"><br>
+<label for="sub4">Enter the Mark for CS8651</label>
+<input type="number" name="sub4" id="sub4" required min="0" max="100"><br>
+<label for="sub5">Enter the Mark for IT8076</label>
+<input type="number" name="sub4" id="sub5" required min="0" max="100"><br>
+<input type="submit" value="Add" name="add" id="add">
+<input type="reset" value="Clear" name="clear" id="clear">
+</form>
+</body>
+</html>
