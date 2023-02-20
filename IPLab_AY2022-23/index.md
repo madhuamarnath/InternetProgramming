@@ -1,7 +1,7 @@
-| **Experiment No.** | **Experiment Name**                                                                                      |
-| -------------------| ---------------------------------------------------------------------------------------------------------|
-| 1                  | **HTML Elements**                                                                                        |
-| 1(a)               | [List] (https://github.com/madhuamarnath/WebTechnologyLabDemo/blob/master/IPLab_AY2022-23/listdemo.html) |
+| **Experiment No.** | **Experiment Name**                                                                                       |
+| -------------------| ----------------------------------------------------------------------------------------------------------|
+| 1                  | **HTML Elements**                                                                                         |
+| 1(a)               | [List] (https://github.com/madhuamarnath/WebTechnologyLabDemo/blob/master/IPLab_AY2022-23/listdemo.html/) |
 | 1(b)               | Time Table                                               |
 | 1(c)               | Tabular Data                                             |
 | 1(d)               | Forms                                                    |
