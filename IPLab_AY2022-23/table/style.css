@@ -1,0 +1,40 @@
+body {
+    background-color: #ffffff;
+}
+table {
+    padding: 10px;
+    border-spacing: 9px;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr {
+    text-align: center;
+}
+th {
+    background-color: #9dd929;
+    border: 2px solid;
+    padding: 15px;
+}
+td {
+    border: 2px solid;
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: #def3ca;
+}
+tr:nth-child(odd) {
+    background-color: #dfefdf;
+}
+caption {
+    font-weight: bold;
+    caption-side: bottom;
+}
+tr:first-child {
+    counter-reset: var-name 0; /* Set the Serial counter to 0 */
+}
+tr td:first-child:before
+{
+  counter-increment: var-name;    /* Increment the Serial counter */
+  content: counter(var-name); 	/* Display the counter */
+}
+

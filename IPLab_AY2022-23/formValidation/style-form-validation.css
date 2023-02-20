@@ -1,0 +1,27 @@
+body {
+	background-color:#de8fff
+}
+
+label {
+	float:left; 
+	width:12em; 
+	text-align:right;
+}
+
+input {
+	margin-left: 1em; 
+	margin-bottom: 2em;
+}
+
+#add {
+	margin-left:7em; 
+	margin-top: 2em;
+}
+
+input:valid{
+	border:2px green solid;
+}
+
+input:invalid{
+	border:2px red solid;
+}
