@@ -29,5 +29,6 @@ console.log(result);
 let text = "Rahul Dravid is the best batsman. Wasim Akram is the best fast bowler. Shane Warne is the best spin bowler";
 console.log(text.replaceAll("best","great"));
 
-const regex = /Sachin(?= Tendulkar)/g;
-console.log("Sachin Tendulkar".match(regex));
+let inputString = "R#8alotru";
+let pattern = /(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*]).{8,}/g;
+console.log(inputString.match(pattern));
