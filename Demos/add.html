@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Adding Numbers</title>
+<script>
+function calculate()
+{
+	var inputArray=document.getElementById("inputNums").value.split("\n");
+	var sum=0;
+	for(i in inputArray)
+		sum=sum+Number(inputArray[i]);
+	var textbox=document.getElementById("ouputNum");
+	textbox.value=sum;
+	//alert(sum);
+}
+</script>
+</head>
+<body>
+<form method="post">
+<textarea rows="5" name="inputNums" id="inputNums"></textarea><br>
+<input type="button" value="Add" onclick="return calculate();"><br><br>
+<input type="text" id="ouputNum" name="outputNum">
+</form>
+</body>
+</head>
