@@ -3,11 +3,11 @@
 | 1                  | **HTML Elements**                                                                                         |
 | 1(a)               | [List](https://github.com/madhuamarnath/WebTechnologyLabDemo/blob/master/IPLab_AY2022-23/listdemo.html/)  |
 | 1(b)               | [Time Table](https://github.com/madhuamarnath/WebTechnologyLabDemo/blob/master/IPLab_AY2022-23/timetable.html)|
-| 1(c)               | Tabular Data                                             |
-| 1(d)               | Forms                                                    |
+| 1(c)               | [Tabular Data](https://github.com/madhuamarnath/WebTechnologyLabDemo/blob/master/IPLab_AY2022-23/table/table.html)|
+| 1(d)               | [Forms](https://github.com/madhuamarnath/WebTechnologyLabDemo/blob/master/IPLab_AY2022-23/formsdemo.html)                                                    |
 | 1(e)               | Image Map                                                |
 | 2                  | Develop a home page with horizontal and vertical menus   |
 | 3                  | Create Animation                                         |
 | 4                  | **Form Validation**                                      |
-| 4(a)               | Validate using built-in HTML validation attributes       |
-| 4(b)               | Validate using Constraint Validation API                 |
+| 4(a)               | [Validate using built-in HTML validation attributes](https://github.com/madhuamarnath/WebTechnologyLabDemo/blob/master/IPLab_AY2022-23/built-inFormValidation.html)       |
+| 4(b)               | [Validate using Constraint Validation API](https://github.com/madhuamarnath/WebTechnologyLabDemo/blob/master/IPLab_AY2022-23/formValidation/studentform.html)                 |
