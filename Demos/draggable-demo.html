@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+#div1 {
+  width: 350px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+  margin-bottom: 2em;
+}
+</style>
+</head>
+<body>
+<div id="div1"></div>
+<div id="drag1" draggable="true">I am excited!</div>
+<script>
+const divTarget = document.getElementById("div1");
+const divSource = document.getElementById("drag1");
+
+/*Drag Start*/
+divSource.addEventListener('dragstart', function (event) {
+	event.dataTransfer.setData('text', event.target.id);
+});
+
+/*Drag Over*/
+divTarget.addEventListener('dragover',function(event){
+	event.preventDefault();
+});
+
+/*Drop*/
+divTarget.addEventListener('drop',function(event) {
+	event.preventDefault();
+	let data = event.dataTransfer.getData("text");
+	event.target.appendChild(document.getElementById(data));
+});
+</script>
+</body>
+</html>
