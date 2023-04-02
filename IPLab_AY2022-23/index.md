@@ -12,5 +12,5 @@
 | 4(a)               | [Validate using built-in HTML validation attributes](https://github.com/madhuamarnath/WebTechnologyLabDemo/blob/master/IPLab_AY2022-23/built-inFormValidation.html)       |
 | 4(b)               | [Validate using Constraint Validation API](https://github.com/madhuamarnath/WebTechnologyLabDemo/blob/master/IPLab_AY2022-23/formValidation/studentform.html)                 |
 | 5                  | **Servlets** |
-| 5(a) | Simple Servlet |
+| 5(a) | [Simple Servlet](https://github.com/madhuamarnath/InternetProgramming/tree/master/IPLab_AY2022-23/Servlets/SimpleServlet) |
 | 6 | [Three Tier Application](https://github.com/madhuamarnath/InternetProgramming/tree/master/IPLab_AY2022-23/ThreeTierApplication) |
