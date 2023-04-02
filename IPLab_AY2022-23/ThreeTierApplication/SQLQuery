@@ -1,0 +1,20 @@
+/*Listing Databases*/
+SHOW DATABASES;
+
+/*Creating a database */
+CREATE DATABASE rmkcet;
+
+/*Using Database*/
+USE rmkcet;
+
+/* Creating a Table */
+CREATE TABLE student (regno int(8) primary key, name varchar(25), cgpa decimal(5,2), deptId int(3));
+
+/*Inserting Records*/
+INSERT INTO student values(20104001, "Aakash", 8.14, 104);
+INSERT INTO student values(20105010, "Lara", 9.9, 105);
+INSERT INTO student values(20106100, "Sachin", 9.10, 106);
+INSERT INTO student values(20205001, "Rahul", 9.60, 205);
+
+/*Retreiving All Records*/
+SELECT * FROM student;
