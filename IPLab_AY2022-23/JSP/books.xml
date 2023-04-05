@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book>
+		<bookname>Cracking the Coding Interview</bookname>
+		<isbn>ISBN-13:978-0984782864</isbn>
+		<authorname>
+			<firstname>Gayle Laakmann</firstname>
+			<lastname>McDowell</lastname>
+		</authorname>
+		<publishername>CareerCup</publishername>
+		<bookprice currency="rupees">570</bookprice>
+	</book>
+	<book>
+		<bookname>Grokking Algorithms</bookname>
+		<isbn>ISBN-13:978-1617292231</isbn>
+		<authorname>
+			<firstname>Aditya</firstname>
+			<lastname>Bhargava</lastname>
+		</authorname>
+		<publishername>Manning</publishername>
+		<bookprice currency="rupees">3576.56</bookprice>
+	</book>
+	<book>
+		<bookname>Surviving the Whiteboard Interview</bookname>
+		<isbn>ISBN-13:978-1484250068</isbn>
+		<authorname>
+			<firstname>William</firstname>
+			<lastname>Gant</lastname>
+		</authorname>
+		<publishername>Apress</publishername>
+		<bookprice currency="rupees">3028</bookprice>
+	</book>
+	<book>
+		<bookname>System Design Interview</bookname>
+		<isbn>ISBN-13:978-1736049105</isbn>
+		<authorname>
+			<firstname>Alex</firstname>
+			<lastname>Xu</lastname>
+		</authorname>
+		<publishername>Independently Published</publishername>
+		<bookprice currency="rupees">278</bookprice>
+	</book>
+	<book>
+		<bookname>Modern Java in Action</bookname>
+		<isbn>ISBN 9781617293566</isbn>
+		<authorname>
+			<firstname>Raoul-Gabriel</firstname>
+			<lastname>Urma</lastname>
+		</authorname>
+		<publishername>Manning</publishername>
+		<bookprice currency="rupees">3530</bookprice>
+	</book>
+</books>
