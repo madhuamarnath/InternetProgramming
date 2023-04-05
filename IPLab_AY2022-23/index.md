@@ -15,4 +15,5 @@
 | 5(a) | [Simple Servlet](https://github.com/madhuamarnath/InternetProgramming/tree/master/IPLab_AY2022-23/Servlets/SimpleServlet) |
 | 6 | **JSTL** |
 | 6(a)| [Database Connectivity Using JSTL](https://github.com/madhuamarnath/InternetProgramming/tree/master/IPLab_AY2022-23/JSP) |
+| 6(b)| [Retrieving XML Data Using JSTL]()
 | 7 | [Three Tier Application](https://github.com/madhuamarnath/InternetProgramming/tree/master/IPLab_AY2022-23/ThreeTierApplication) |
